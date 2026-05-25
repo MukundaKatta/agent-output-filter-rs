@@ -1,0 +1,13 @@
+[package]
+name = "agent-output-filter"
+version = "0.1.0"
+edition = "2021"
+description = "Filter and transform LLM agent output before delivery"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/agent-output-filter-rs"
+keywords = ["llm", "agent", "filter", "output", "transform"]
+categories = ["text-processing"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+regex = "1"
